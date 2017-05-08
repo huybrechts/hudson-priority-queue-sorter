@@ -11,5 +11,31 @@
     <packaging>hpi</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>Priority Queue Sorter</name>
+    <url>http://wikihealthcare.agfa.net/display/JEN/Priority+Queue+Sorter</url>
 
+  <scm>
+    <connection>scm:git:git://github.com/jenkinsci/hudson-priority-queue-sorter.git</connection>
+    <developerConnection>scm:git:git@github.com:huybrechts/hudson-priority-queue-sorter.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>  
+
+    <build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ssh</artifactId>
+				<version>2.4</version>
+			</extension>
+		</extensions>
+	</build>
+
+  <distributionManagement>
+    <repository>
+      <id>hap-repository</id>
+      <name>HAP Maven Repository</name>
+      <url>scp://maven-repository.agfahealthcare.com/maven-repository</url>
+      <uniqueVersion>true</uniqueVersion>
+    </repository>
+  </distributionManagement>
+    
 </project>
