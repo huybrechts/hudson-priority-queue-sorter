@@ -9,14 +9,14 @@
         
     <artifactId>priority-queue-sorter</artifactId>
     <packaging>hpi</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>Priority Queue Sorter</name>
     <url>http://wikihealthcare.agfa.net/display/JEN/Priority+Queue+Sorter</url>
 
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/hudson-priority-queue-sorter.git</connection>
     <developerConnection>scm:git:git@github.com:huybrechts/hudson-priority-queue-sorter.git</developerConnection>
-    <tag>priority-queue-sorter-1.0</tag>
+    <tag>HEAD</tag>
   </scm>  
 
     <build>
